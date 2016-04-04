@@ -7,6 +7,7 @@ import com.twitter.finatra.http.filters.{CommonFilters, TraceIdMDCFilter, Loggin
 import com.twitter.finatra.http.routing.HttpRouter
 
 /**
+  * FinatraSpeedServer configures the HTTP server and FinatraSpeedServerMain serves as the main() object for the application.
   *
   * @author Josh Klun (jklun@nerdery.com)
   */

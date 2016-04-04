@@ -4,6 +4,11 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
 
+/**
+  * Simple Gatling simulation for the REST service in this project. By default, it ramps to 3600 users in 15 seconds.
+  *
+  * @author Josh Klun (jklun@nerdery.com)
+  */
 class EchoSimulation extends Simulation {
 
   private val concurrentUsers = 3600

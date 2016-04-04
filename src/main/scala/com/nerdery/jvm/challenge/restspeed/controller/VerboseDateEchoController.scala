@@ -7,6 +7,8 @@ import com.nerdery.jvm.challenge.restspeed.service.VerboseDateEchoService
 import com.twitter.finatra.http.Controller
 
 /**
+  * VerboseDateEchoController handles a single GET request on the /echo URL path.
+  *
   * @author Josh Klun (jklun@nerdery.com)
   */
 class VerboseDateEchoController @Inject()(echoService: VerboseDateEchoService) extends Controller {

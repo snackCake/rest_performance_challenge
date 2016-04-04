@@ -7,6 +7,8 @@ import com.nerdery.jvm.challenge.restspeed.model.request.EchoRequest
 import com.nerdery.jvm.challenge.restspeed.model.response.DateEchoResponse
 
 /**
+  * VerboseDateEchoService performs the "business logic" of transforming requested data.
+  *
   * @author Josh Klun (jklun@nerdery.com)
   */
 @Singleton
